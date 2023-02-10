@@ -1,0 +1,66 @@
+:root {
+  --sidebar-flex: 1.5;
+  --condiv-flex: 6;
+  --fontsize-p: 1.2rem;
+  --fontsize-nav: 1.6rem;
+  --typing-font: 3rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Raleway";
+}
+.App {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+}
+.condiv
+{
+  padding: 100px ;
+  background-color: #f4f5f9;
+  flex:var(--condiv-flex);
+}
+
+.home
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.profilepic
+{
+  border-radius: 50%;
+  width: 150px;
+  margin: 30px;
+}
+.typingeffect
+{
+  font-size: var(--typing-font);
+  margin-bottom: 30px;
+}
+nav {
+  padding: 60px 30px 0px 30px;
+  flex: var(--sidebar-flex);
+  background: rgb(255, 127, 125);
+  background: linear-gradient(
+    180deg,
+    rgb(255, 127, 125) 50%,
+    rgb(155, 255, 233) 80%
+  );
+}
+nav ul{
+  font-size:var(--fontsize-nav) ;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: white !important;
+}
+nav ul li
+{
+  margin:40px;
+}
