@@ -5,7 +5,8 @@ import ReactTypingEffect from "react-typing-effect"
 function Home() {
   return (
     <div className="condiv home">
-      <img src={profilepic} alt="ProfilePic" className="profilepic"></img>
+      {/* <img src={profilepic} alt="ProfilePic" className="profilepic"></img> */}
+     <p>Welcome</p>
       <ReactTypingEffect
         className="typingeffect"
         text={[

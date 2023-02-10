@@ -9,4 +9,4 @@ function Navitem({tolink,item}) {
   )
 }
 
-export default Navitem
+export default Navitem;
